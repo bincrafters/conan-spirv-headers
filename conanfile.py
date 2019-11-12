@@ -9,7 +9,6 @@ class SPIRVConan(ConanFile):
     topics = ("conan", "spirv")
     url = "https://github.com/bincrafters/conan-spirv-headers"
     homepage = "https://github.com/KhronosGroup/SPIRV-Headers"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "MIT"
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
